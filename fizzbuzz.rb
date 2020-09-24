@@ -2,14 +2,14 @@
 # See README.md for instructions on how to do this
 def fizzbuzz(int)
   if int % 3 == 0 && int % 5 == 0
-    puts "Fizzbuzz"
-    return "Fizzbuzz"
-  elsif  int % 3 == 0  && int % 5 != 0
+    return "FizzBuzz"
 
+  elsif  int % 3 == 0  && int % 5 != 0
     return "Fizz"
+
   elsif int % 3 != 0 && int % 5 == 0
-    puts "Buzz"
     return "Buzz"
+
   else
     return nil
   end
